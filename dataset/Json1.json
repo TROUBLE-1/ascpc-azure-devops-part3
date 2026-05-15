@@ -1,0 +1,20 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "host",
+				"folderPath": "locks/d5bf34dc69e4beedada77fac56aa35ae",
+				"container": "azure-webjobs-hosts"
+			}
+		},
+		"schema": {}
+	}
+}
